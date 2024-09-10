@@ -1,0 +1,61 @@
+﻿@model List<Application.ViewModels.SerieViewModel>
+
+@{
+    ViewData["Title"] = "Series";
+}
+
+<section>
+    <div class="container">
+
+        <div class="buttons is-right">
+            <a asp-controller="Serie" asp-action="Create" class="button is-primary is-outlined is-responsive">Add Tv show</a>
+        </div>
+
+            @if (Model == null || Model.Count == 0)
+            { 
+                <h2>No Tv shows available</h2>
+            }
+            else
+            {
+            <div class="columns is-multiline">
+                @foreach (Application.ViewModels.SerieViewModel item in Model)
+                {
+                    <div class="column is-4-desktop is-6-tablet">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-5by3">
+                                    <img src="@item.ImagenPortada"
+                                         alt="Placeholder image" />
+                                </figure>
+                            </div>
+                            <div class="card-content mt-4">
+                                <div class="content has-text-centered">
+                                    <small class="title is-size-5">@item.Nombre</small>
+                                </div>
+                                <div class="content">
+                                    <small class="is-flex is-justify-content-center is-align-items-center">Studio: @item.ProductoraNombre</small>
+                                </div>
+                                <div class="content">
+                                    <small class="is-flex is-justify-content-center is-align-items-center">
+                                        Genders: @string.Join(", ", item.Generos)
+                                        @if (!string.IsNullOrEmpty(item.SegundoGeneroNombre))
+                                        {
+                                            <span>- @item.SegundoGeneroNombre</span>
+                                        }
+                                    </small>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="card-footer-item">
+                                        <a asp-controller="Serie" asp-action="Edit" asp-route-id="@item.Id" class="button is-fullwidth has-text-grey-light is-uppercase" style="border: none;" data-config-id="primary-action1">Edit</a>
+                                        <a asp-controller="Serie" asp-action="Delete" asp-route-id="@item.Id" class="button is-fullwidth has-text-grey-light is-uppercase" style="border: none;" data-config-id="primary-action1">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            }
+
+    </div>
+</section>

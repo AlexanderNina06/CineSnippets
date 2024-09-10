@@ -1,0 +1,54 @@
+﻿@{
+	Layout = ViewBag.Layout;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineSnippets</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a asp-controller="Home" asp-action="Index" class="logo"><img decoding="async" src="Images/png (5).png"></a>
+        <ul class="navigation">
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Serie" asp-action="Index">TV Shows</a></li>
+            <li><a asp-controller="Productora" asp-action="Index">Studios</a></li>
+            <li><a asp-controller="Genero" asp-action="Index">Genders</a></li>
+        </ul>
+        <div class="search">
+            <a asp-controller="Home" asp-action="Index">
+                <button>Get Started!</button>
+            </a>
+        </div>
+    </header>
+    <div class="banner">
+        <img decoding="async" src="Images/jon-snow-wolf-game-of-thrones-hd-wallpaper-uhdpaper.com-286@2@a.jpg" class="bg">
+        <div class="content">
+            <h2>Game of thrones</h2>
+            <h4>
+                <span>2011</span>
+                <span><i>16+</i></span>
+                <span>8 seasons</span>
+                <span>Action</span>
+                <span>Medieval</span>
+                <span>Drama</span>
+            </h4>
+            <p>A thrilling tale of power, passion, and intrigue set in a fictional world inspired by medieval Europe.</p>
+        </div>
+        <a class="play" onclick="toggleVideo();"><img decoding="async" src="Images/play.png">Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="Images/mylivewallpapers.com-Game-of-Thrones-Winter-Is-Here.mp4" controls="true" autoplay="true"></video>
+        <img decoding="async" src="Images/close.png" class="close" onclick="toggleVideo();">
+    </div>
+
+    <script src="/js/site.js"></script>
+</body>
+</html>

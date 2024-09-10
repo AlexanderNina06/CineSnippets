@@ -1,0 +1,80 @@
+﻿@section SearchForm
+{
+    <form class="d-flex" method="get" asp-action="Index" asp-controller="Home">
+        <input class="form-control me-sm-2" type="search" placeholder="Buscar serie" name="searchString" id="searchInput">
+
+        <select class="select  is-multiple" name="productoraNombre" id="productoraSelect">
+            <option value="">Todas las productoras</option>
+            @if (ViewBag.Productoras != null)
+            {
+                foreach (var productora in ViewBag.Productoras)
+                {
+                    <option value="@productora.Nombre">@productora.Nombre</option>
+                }
+            }
+        </select>
+
+        <select class="select  is-multiple" name="generoNombre" id="generoSelect">
+            <option value="">Todos los géneros</option>
+            @if (ViewBag.Generos != null)
+            {
+                foreach (var genero in ViewBag.Generos)
+                {
+                    <option value="@genero.Nombre">@genero.Nombre</option>
+                }
+            }
+        </select>
+
+        <button class="button is-info" style="padding-top:5px; padding-right:3px; type="submit">Buscar</button>
+    </form>
+}
+
+@model List<Application.ViewModels.SerieViewModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            @if (Model == null || Model.Count == 0)
+            {
+                <h3 class="content has-text-centered title is-size-6">There is no tv shows available</h3>
+            }
+            else
+            {
+                <div class="columns is-multiline">
+                    @foreach (Application.ViewModels.SerieViewModel item in Model)
+                    {
+                        <div class="column is-4-desktop is-6-tablet">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-5by3">
+                                        <img src="@item.ImagenPortada"
+                                             alt="Placeholder image" />
+                                    </figure>
+                                </div>
+                                <div class="card-content mt-4">
+                                    <div class="content has-text-centered">
+                                        <small class="title is-size-5">@item.Nombre</small>
+                                    </div>
+                                    <div class="content">
+                                        <small class="is-flex is-justify-content-center is-align-items-center">Studio: @item.ProductoraNombre</small>
+                                    </div>
+                                    <div class="content">
+                                        <small class="is-flex is-justify-content-center is-align-items-center">Genders: @string.Join(", ", item.Generos)</small>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-footer-item">
+                                            <a href="@Url.Action("Detalles", "Home", new { id = item.Id })" class="button is-fullwidth has-text-grey-light is-uppercase">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</section>

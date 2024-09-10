@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\visualStudioProyectos\\ItlaPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\visualStudioProyectos\\ItlaPlus\\Database\\Migrations\\20240910031504_AzureInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Database\\Migrations\\20240910031504_AzureInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E7B2B1-29B1-4349-BAA2-3F8A7D2D0CD4}|MVCcrud\\MVCcrud.csproj|c:\\visualstudioproyectos\\itlaplus\\mvccrud\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13E7B2B1-29B1-4349-BAA2-3F8A7D2D0CD4}|MVCcrud\\MVCcrud.csproj|solutionrelative:mvccrud\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E7B2B1-29B1-4349-BAA2-3F8A7D2D0CD4}|MVCcrud\\MVCcrud.csproj|c:\\visualstudioproyectos\\itlaplus\\mvccrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13E7B2B1-29B1-4349-BAA2-3F8A7D2D0CD4}|MVCcrud\\MVCcrud.csproj|solutionrelative:mvccrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E7B2B1-29B1-4349-BAA2-3F8A7D2D0CD4}|MVCcrud\\MVCcrud.csproj|c:\\visualstudioproyectos\\itlaplus\\mvccrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13E7B2B1-29B1-4349-BAA2-3F8A7D2D0CD4}|MVCcrud\\MVCcrud.csproj|solutionrelative:mvccrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 196,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240910031504_AzureInit.cs",
+              "DocumentMoniker": "C:\\visualStudioProyectos\\ItlaPlus\\Database\\Migrations\\20240910031504_AzureInit.cs",
+              "RelativeDocumentMoniker": "Database\\Migrations\\20240910031504_AzureInit.cs",
+              "ToolTip": "C:\\visualStudioProyectos\\ItlaPlus\\Database\\Migrations\\20240910031504_AzureInit.cs",
+              "RelativeToolTip": "Database\\Migrations\\20240910031504_AzureInit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T03:15:05.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\visualStudioProyectos\\ItlaPlus\\MVCcrud\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MVCcrud\\appsettings.Development.json",
+              "ToolTip": "C:\\visualStudioProyectos\\ItlaPlus\\MVCcrud\\appsettings.Development.json",
+              "RelativeToolTip": "MVCcrud\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T03:12:12.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\visualStudioProyectos\\ItlaPlus\\MVCcrud\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCcrud\\appsettings.json",
+              "ToolTip": "C:\\visualStudioProyectos\\ItlaPlus\\MVCcrud\\appsettings.json",
+              "RelativeToolTip": "MVCcrud\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T03:12:03.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\visualStudioProyectos\\ItlaPlus\\MVCcrud\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCcrud\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\visualStudioProyectos\\ItlaPlus\\MVCcrud\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCcrud\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T03:02:07.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

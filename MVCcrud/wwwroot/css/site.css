@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.btn-customD {
+    background-color: #073642 !important;
+    color: white;
+    border-color: #073642;
+}
+.btn-customD1 {
+    background-color: #073642 !important;
+    color: white;
+    border: 2px solid White;
+}
+.btn-customE {
+    background-color: #073642 !important;
+    color: white;
+    border-color: white;
+}
+.btn-customAG {
+    color: #073642;
+    border-color: #073642;
+}
+.btn-customDEL {
+    background-color: #9A7400 !important;
+    color: white;
+    border-color: #9A7400;
+}
+
+body {
+  margin-bottom: 60px;
+}
