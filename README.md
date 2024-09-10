@@ -1,4 +1,4 @@
-# CineSnippets
+# CineSnippets - Mini Project
 
 **A streaming app built with ASP.NET Core MVC**
 
